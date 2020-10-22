@@ -22,6 +22,7 @@ public class Agent {
 	private String firstName;
 	private String lastName;
 	private String emailId;
+	private String password;
 	private int phone;
 	private String street;
 	private String city;
@@ -60,6 +61,16 @@ public class Agent {
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
+	
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
 	public int getPhone() {
 		return phone;
 	}

@@ -25,6 +25,7 @@ public class Product {
 	private String description;
 	private String proImage;
 	private String catName;
+	private int quantity;
 	
 	@ManyToOne
 	@JoinColumn(name = "agentId")
@@ -79,12 +80,24 @@ public class Product {
 	public void setCatName(String catName) {
 		this.catName = catName;
 	}
+	
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
 
 	@Override
 	public String toString() {
-		return "Product [proId=" + proId + ", product=" + agent + ", proName=" + proName + ", price=" + price
-				+ ", description=" + description + ", proImage=" + proImage + ", catName=" + catName + "]";
+		return "Product [proId=" + proId + ", proName=" + proName + ", price=" + price + ", description=" + description
+				+ ", proImage=" + proImage + ", catName=" + catName + ", quantity=" + quantity + ", agent=" + agent
+				+ ", orderDetailsList=" + orderDetailsList + "]";
 	}
+
+
+	
 	
 	
 	

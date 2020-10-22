@@ -6,5 +6,7 @@
     for more information on Jersey!
     <p><a href="webapi/myresource/register">add Customer</a>
     <p><a href="webapi/myresource/getCustomerByUserPass">Get Customer</a>
+    <p><a href="webapi/myresource/getAgentByUserPass">Get Agent</a>
+    <p><a href="webapi/myresource/registerProduct">add Product</a>
 </body>
 </html>
